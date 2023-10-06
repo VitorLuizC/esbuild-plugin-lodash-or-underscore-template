@@ -17,23 +17,6 @@ npm install esbuild-plugin-lodash-or-underscore-template --save
 yarn add esbuild-plugin-lodash-or-underscore-template
 ```
 
-### Installation from CDN
-
-This module has an UMD bundle available through JSDelivr and Unpkg CDNs.
-
-```html
-<!-- For UNPKG use the code below. -->
-<script src="https://unpkg.com/esbuild-plugin-lodash-or-underscore-template"></script>
-
-<!-- For JSDelivr use the code below. -->
-<script src="https://cdn.jsdelivr.net/npm/esbuild-plugin-lodash-or-underscore-template"></script>
-
-<script>
-  // UMD module is exposed through the "ESBuildPluginLodashOrUnderscoreTemplate" global variable.
-  console.log(ESBuildPluginLodashOrUnderscoreTemplate);
-</script>
-```
-
 ## License
 
 Released under [MIT License](./LICENSE).

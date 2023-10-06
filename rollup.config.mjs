@@ -1,6 +1,5 @@
 // @ts-check
 
-import terser from '@rollup/plugin-terser';
 import typescript2 from 'rollup-plugin-typescript2';
 import packageJSON from './package.json' assert { type: 'json' };
 
@@ -22,7 +21,6 @@ const banner = `/*!
 function createOutputOptions(options) {
   return {
     banner,
-    name: 'ESBuildPluginLodashOrUnderscoreTemplate',
     exports: 'named',
     sourcemap: true,
     ...options,
@@ -42,23 +40,6 @@ const options = {
     createOutputOptions({
       file: './dist/index.cjs',
       format: 'commonjs',
-    }),
-    createOutputOptions({
-      file: './dist/index.mjs',
-      format: 'esm',
-    }),
-    createOutputOptions({
-      file: './dist/index.esm.js',
-      format: 'esm',
-    }),
-    createOutputOptions({
-      file: './dist/index.umd.js',
-      format: 'umd',
-    }),
-    createOutputOptions({
-      file: './dist/index.umd.min.js',
-      format: 'umd',
-      plugins: [terser()],
     }),
   ],
   plugins: [
