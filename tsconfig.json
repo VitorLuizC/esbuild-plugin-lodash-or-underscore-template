@@ -27,7 +27,7 @@
     "verbatimModuleSyntax": true,
 
     // Type-checking settings.
-    "lib": ["ES2020"],
+    "lib": ["ES2022"],
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "types": ["jest"]
