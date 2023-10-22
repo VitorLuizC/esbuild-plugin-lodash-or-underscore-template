@@ -56,5 +56,9 @@
   "bugs": {
     "url": "https://github.com/VitorLuizC/esbuild-plugin-lodash-or-underscore-template/issues"
   },
-  "homepage": "https://github.com/VitorLuizC/esbuild-plugin-lodash-or-underscore-template#readme"
+  "homepage": "https://github.com/VitorLuizC/esbuild-plugin-lodash-or-underscore-template#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/underscore": "^1.11.12"
+  }
 }
