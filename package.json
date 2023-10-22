@@ -9,14 +9,8 @@
     "types/"
   ],
   "exports": {
-    ".": [
-      {
-        "types": "./types/index.d.ts",
-        "require": "./dist/index.cjs",
-        "default": "./dist/index.js"
-      },
-      "./dist/index.js"
-    ]
+    "types": "./types/lodash-or-underscore-template.d.cts",
+    "require": "./dist/lodash-or-underscore-template.cjs"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.3",
